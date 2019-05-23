@@ -1,4 +1,18 @@
-default-create.sql
-default-drop.sql
-*.db
-target/
+*.class
+.classpath
+.project
+.settings
+.vscode
+# Package Files #
+*.jar
+*.war
+*.ear
+lib
+target
+.idea
+classes
+*.iml
+deploy
+**/.act*
+git.log
+*.log
