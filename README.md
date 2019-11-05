@@ -6,7 +6,7 @@ To start in dev mode:
 
 ```bash
 cd /path/to/a/app
-mvn clean compile exec:exec
+mvn clean compile act:run
 ```
 
 To start in prod mode:
@@ -15,6 +15,6 @@ To start in prod mode:
 cd /path/to/a/app
 mvn clean package
 cd target/dist
-unzip *.zip
-./start
+tar xzf *.tgz
+./run
 ```
